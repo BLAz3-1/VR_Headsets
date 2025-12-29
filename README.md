@@ -1,2 +1,2 @@
 # VR_Headsets
-A responsive web project using HTML CSS and media queries
+A responsive web project using HTML CSS and media queries about VR Headsets
