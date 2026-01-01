@@ -1,0 +1,49 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+header {
+  border:1px solid black;
+}
+
+.container {
+  width:1440px;
+  max-width:90%;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+
+header .left-side {
+  display:flex;
+  align-items:center;
+  gap:5px;
+}
+
+.left-side p {
+  font-size:27px;
+}
+
+.left-side .vr {
+  font-weight:bold;
+}
+
+.left-side .blue-dot {
+  display:inline-block;
+  width:10px;
+  height:10px;
+  border-radius: 5px;
+  background-color:#33C6DD;
+
+}
+
+header .right-side ul{
+  display:flex;
+  list-style-type:none;
+  gap:16px;
+  padding:0;
+  margin:0;
+}
