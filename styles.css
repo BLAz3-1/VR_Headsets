@@ -1,6 +1,7 @@
 body {
   margin:0;
   padding:0;
+  font-family:"Heebo", sans-serif;
 }
 
 .container {
@@ -53,6 +54,7 @@ header .right-side ul li a {
 }
 
 .hero {
+  /* hero image defines the height of the hero section */
   position:relative;
 }
 
@@ -66,14 +68,39 @@ header .right-side ul li a {
 
 .hero .hero-content .container {
   display:flex;
-  height:100%;
   flex-direction:column;
-  align-items:flex-start;
   justify-content:center;
+  height:100%;
 }
 
-.hero .hero-content h1, .hero .hero-content p {
+.hero .hero-content .container h1, 
+.hero .hero-content .container p {
   margin:0;
   margin-bottom:20px;
   max-width:495px;
+  color:#FFFFFF;
+}
+
+.hero .hero-content .container h1 {
+  font-size:50px;
+  font-weight:400;
+  line-height:56px;
+}
+
+.hero .hero-content .container p {
+  font-size:20px;
+  font-weight:200;
+  line-height:28px;
+}
+
+.hero .hero-content .container button {
+  width:200px;
+  height:50px;
+  background-color:#33C6DD;
+  border:none;
+  color:#FFFFFF;
+  text-transform:uppercase;
+  font-weight:400;
+  font-size:16px;
+  border-radius:100px;
 }
