@@ -11,6 +11,10 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   border: 1px solid black;
   height: 70px;
@@ -231,13 +235,14 @@ section.newsletter {
   max-width: 100%;
   margin: 0 auto;
   background-color: #f1f1f1;
-  padding: 72px;
-  border:none;
-  height:292px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
+  padding: 72px 0;
+  border: none;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
 section.newsletter p.newsletter {
@@ -249,25 +254,65 @@ section.newsletter p.newsletter {
 section.newsletter p {
   font-weight: 400;
   font-size: 16px;
-  margin-top:10px;
-  margin-bottom:20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 section.newsletter input {
-  width:326px;
-  padding:14px 24px;
-  border-radius:150px 0 0 150px;
+  width: 326px;
+  padding: 14px 24px;
+  border-radius: 150px 0 0 150px;
 }
 
 section.newsletter button {
-  width:145px;
-  text-transform:uppercase;
-  background-color:#614DC9;
-  color:white;
-  padding:14px 36px;
-  font-size:14px;
-  border:none;
-  border-radius:0 70px 70px 0;
-  height:45px;
-  text-align:center;
+  width: 145px;
+  text-transform: uppercase;
+  background-color: #614DC9;
+  color: white;
+  padding: 14px 36px;
+  font-size: 14px;
+  border: none;
+  border-radius: 0 70px 70px 0;
+  height: 45px;
+  text-align: center;
+}
+
+section.navigation {
+  background-color: #3E3E3E;
+  color: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+section.navigation .navigation-links {
+  width: 955px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.navigation .navigation-links ul {
+  width: 25%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section.navigation .navigation-links ul li.heading {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+section.navigation .navigation-links ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom:10px;
+}
+
+section.navigation .navigation-links ul li a {
+  color:#FFF;
 }
