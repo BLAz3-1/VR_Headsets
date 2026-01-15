@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Heebo", sans-serif;
-  padding-bottom: 500px;
 }
 
 .container {
@@ -262,6 +261,7 @@ section.newsletter input {
   width: 326px;
   padding: 14px 24px;
   border-radius: 150px 0 0 150px;
+  font-size: 14px;
 }
 
 section.newsletter button {
@@ -310,9 +310,18 @@ section.navigation .navigation-links ul li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 section.navigation .navigation-links ul li a {
-  color:#FFF;
+  color: #E0E0E0;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 0;
+  background-color: black;
+  color: #E0E0E0;
+  font-weight: 400;
+  font-size: 16px;
 }
