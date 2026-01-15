@@ -107,6 +107,10 @@ header .right-side ul li a {
   border-radius: 100px;
 }
 
+.best-sellers {
+  margin-bottom: 80px;
+}
+
 .best-sellers h2 {
   font-size: 34px;
   font-weight: 400;
@@ -189,7 +193,7 @@ header .right-side ul li a {
 }
 
 .product-slider .product .price.discount h3 {
-  color:#EC1C1C;
+  color: #EC1C1C;
 }
 
 .product-slider .product .price h3 {
@@ -204,8 +208,8 @@ header .right-side ul li a {
   margin: 0 10px;
   font-weight: 400;
   font-size: 16px;
-  color:#9B9B9B;
-  text-decoration:line-through;
+  color: #9B9B9B;
+  text-decoration: line-through;
 }
 
 .product-slider .product button {
@@ -219,4 +223,51 @@ header .right-side ul li a {
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
+}
+
+section.newsletter {
+  border: 1px solid black;
+  width: 955px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 72px;
+  border:none;
+  height:292px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+section.newsletter p.newsletter {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+section.newsletter p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+section.newsletter input {
+  width:326px;
+  padding:14px 24px;
+  border-radius:150px 0 0 150px;
+}
+
+section.newsletter button {
+  width:145px;
+  text-transform:uppercase;
+  background-color:#614DC9;
+  color:white;
+  padding:14px 36px;
+  font-size:14px;
+  border:none;
+  border-radius:0 70px 70px 0;
+  height:45px;
+  text-align:center;
 }
