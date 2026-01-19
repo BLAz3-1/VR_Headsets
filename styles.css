@@ -4,6 +4,7 @@ body {
   font-family: "Heebo", sans-serif;
 }
 
+/* Large Desktop > 1440px */
 .container {
   width: 1440px;
   max-width: 90%;
@@ -115,6 +116,7 @@ header .right-side ul li a {
 }
 
 .best-sellers h2 {
+  margin: 0;
   font-size: 34px;
   font-weight: 400;
   text-align: center;
@@ -236,35 +238,36 @@ section.newsletter {
   background-color: #f1f1f1;
   padding: 72px 0;
   border: none;
-  height: 292px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
+  text-align: center;
 }
 
-section.newsletter p.newsletter {
+section.newsletter h3 {
   font-weight: 400;
   font-size: 24px;
   margin: 0;
+  margin-bottom: 10px;
 }
 
 section.newsletter p {
   font-weight: 400;
   font-size: 16px;
-  margin-top: 10px;
+  margin: 0;
   margin-bottom: 20px;
 }
 
-section.newsletter input {
+section.newsletter input[type=email] {
   width: 326px;
   padding: 14px 24px;
   border-radius: 150px 0 0 150px;
   font-size: 14px;
 }
 
-section.newsletter button {
+section.newsletter button[type=submit] {
   width: 145px;
   text-transform: uppercase;
   background-color: #614DC9;
@@ -280,8 +283,7 @@ section.newsletter button {
 section.navigation {
   background-color: #3E3E3E;
   color: #FFFFFF;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 
 section.navigation .navigation-links {
@@ -313,6 +315,10 @@ section.navigation .navigation-links ul li {
   margin-bottom: 10px;
 }
 
+section.navigation .navigation-links ul li:last-of-type {
+  margin-bottom: 0;
+}
+
 section.navigation .navigation-links ul li a {
   color: #E0E0E0;
 }
@@ -324,4 +330,300 @@ footer {
   color: #E0E0E0;
   font-weight: 400;
   font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smaller Desktop */
+@media screen and (max-width:1440px) {
+  .container {
+    width: 1180px;
+    max-width: 90%;
+  }
+
+  .hero {
+    margin-bottom: 70px;
+  }
+
+  .hero .hero-content .container h1,
+  .hero .hero-content .container p {
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .hero .hero-content .container h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .hero .hero-content .container p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .hero .hero-content .container button {
+    font-size: 14px;
+  }
+
+  .best-sellers {
+    margin-bottom: 70px;
+  }
+
+  .best-sellers h2 {
+    margin-bottom: 16px;
+  }
+
+  .best-sellers hr {
+    margin-bottom: 70px;
+  }
+
+  .product-slider .product {
+    padding: 30px;
+  }
+
+  .product-slider .product h5 {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .product-slider .product h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .price {
+    margin-bottom: 6px;
+  }
+
+  .product-slider .product .price h3 {
+    font-size: 24px;
+  }
+
+  .product-slider .product .price span.original-price {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+
+  .product-slider .product button {
+    font-size: 14px;
+    height: 40px;
+    width: 180px;
+  }
+
+  section.newsletter {
+    width: 880px;
+    padding: 50px 0;
+    margin-bottom: 70px;
+  }
+
+  section.newsletter h3 {
+    font-size: 22px;
+  }
+
+  section.newsletter p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  section.newsletter input[type=email] {
+    font-size: 12px;
+  }
+
+  section.newsletter button[type=submit] {
+    padding: 14px 40px;
+    font-size: 12px;
+  }
+
+  section.navigation {
+    padding: 50px 0;
+  }
+
+  section.navigation .navigation-links {
+    width: 1180px;
+    max-width: 90%;
+  }
+
+  section.navigation .navigation-links ul li.heading {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  section.navigation .navigation-links ul li {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width:960px) {
+  .container {
+    width: 92%;
+    max-width: 92%;
+  }
+
+  .hero {
+    margin-bottom: 44px;
+  }
+
+  .hero .hero-content .container h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .hero .hero-content .container p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .hero .hero-content .container button {
+    font-size: 14px;
+    width: 196px;
+  }
+
+  .best-sellers {
+    margin-bottom: 50px;
+  }
+
+  .best-sellers h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .best-sellers hr {
+    margin-bottom: 48px;
+  }
+
+  .product-slider .product {
+    padding: 20px;
+    margin: 0 9px;
+  }
+
+  .product-slider .product.new::before {
+    font-size: 11px;
+    top: 6px;
+    right: 6px;
+  }
+
+  .product-slider .product .product-info {
+    margin-top: 30px;
+  }
+
+  .product-slider .product h5 {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .product-slider .product h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .price {
+    margin-bottom: 6px;
+  }
+
+  .product-slider .product .price h3 {
+    font-size: 16px;
+  }
+
+  .product-slider .product .price span.original-price {
+    font-size: 9px;
+  }
+
+  .product-slider .product button {
+    font-size: 12px;
+    height: 36px;
+    width: 146px;
+  }
+
+  section.newsletter {
+    width: 880px;
+    padding: 50px 0;
+    margin-bottom: 70px;
+  }
+
+  section.newsletter h3 {
+    font-size: 22px;
+  }
+
+  section.newsletter p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  section.newsletter input[type=email] {
+    font-size: 12px;
+  }
+
+  section.newsletter button[type=submit] {
+    padding: 14px 40px;
+    font-size: 12px;
+  }
+
+  section.navigation {
+    padding: 50px 0;
+  }
+
+  section.navigation .navigation-links {
+    width: 1180px;
+    max-width: 90%;
+  }
+
+  section.navigation .navigation-links ul li.heading {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  section.navigation .navigation-links ul li {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 14px 0;
+    font-size: 14px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width:576px) {
+  .container {
+    width: 92%;
+    max-width: 92%;
+  }
 }
