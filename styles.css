@@ -48,9 +48,20 @@ header .container {
 header .right-side ul {
   display: flex;
   list-style-type: none;
-  gap: 16px;
   padding: 0;
   margin: 0;
+}
+
+header .right-side ul li {
+  margin-left: 26px;
+}
+
+header .right-side ul li:first-of-type {
+  margin-left:0;
+}
+
+header .right-side ul li.menu-icon {
+  display: none;
 }
 
 header .right-side ul li a {
@@ -485,6 +496,14 @@ footer {
   .container {
     width: 92%;
     max-width: 92%;
+  }
+
+  header .right-side ul li {
+    display: none;
+  }
+
+  header .right-side ul li.menu-icon {
+    display: inline-block;
   }
 
   .hero {
