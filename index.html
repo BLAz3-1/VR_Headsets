@@ -36,7 +36,12 @@
   </header>
 
   <section class="hero">
-    <img src="images/Hero_Large_Desktop.png" alt="hero-image" width="100%">
+    <picture>
+      <source media="(max-width:576px)" srcset="images/Hero_Mobile.jpg">
+      <source media="(max-width:960px)" srcset="images/Hero_Tablet.jpg">
+      <source media="(max-width:1440px)" srcset="images/Hero_Desktop.jpg">
+      <img src="images/Hero_Large_Desktop.png" alt="hero-image" width="100%">
+    </picture>
 
     <div class="hero-content">
       <div class="container">

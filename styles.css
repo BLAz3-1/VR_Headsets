@@ -57,7 +57,7 @@ header .right-side ul li {
 }
 
 header .right-side ul li:first-of-type {
-  margin-left:0;
+  margin-left: 0;
 }
 
 header .right-side ul li.menu-icon {
@@ -278,12 +278,17 @@ section.newsletter input[type=email] {
   font-size: 14px;
 }
 
+section.newsletter input[type=email]::placeholder {
+  color: #3E3E3E;
+}
+
 section.newsletter button[type=submit] {
-  width: 145px;
+  /* width: 145px; */
+  height: 50px;
   text-transform: uppercase;
   background-color: #614DC9;
   color: white;
-  padding: 14px 36px;
+  padding: 0 36px;
   font-size: 14px;
   border: none;
   border-radius: 0 70px 70px 0;
@@ -450,7 +455,7 @@ footer {
   }
 
   section.newsletter button[type=submit] {
-    padding: 14px 40px;
+    padding: 0 40px;
     font-size: 12px;
   }
 
@@ -582,7 +587,6 @@ footer {
   }
 
   section.newsletter {
-    width: 880px;
     padding: 50px 0;
     margin-bottom: 70px;
   }
@@ -600,18 +604,13 @@ footer {
     font-size: 12px;
   }
 
-  section.newsletter button[type=submit] {
-    padding: 14px 40px;
-    font-size: 12px;
-  }
-
   section.navigation {
     padding: 50px 0;
   }
 
   section.navigation .navigation-links {
-    width: 1180px;
-    max-width: 90%;
+    width: 92%;
+    max-width: 92%;
   }
 
   section.navigation .navigation-links ul li.heading {
@@ -644,5 +643,135 @@ footer {
   .container {
     width: 92%;
     max-width: 92%;
+  }
+
+  .left-side {
+    font-size: 18px;
+  }
+
+  .hero {
+    margin-bottom: 70px;
+  }
+
+  .hero-content {
+    position: initial;
+    text-align: center;
+    margin-top: 26px;
+  }
+
+  .hero .hero-content .container {
+    align-items: center;
+  }
+
+  .hero .hero-content .container h1,
+  .hero .hero-content .container p {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .hero .hero-content .container h1 {
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+    width:300px;
+  }
+
+  .hero .hero-content .container p {
+    display: none;
+  }
+
+  .hero .hero-content .container button {
+    font-size: 14px;
+  }
+
+  .best-sellers {
+    margin-bottom: 60px;
+  }
+
+  .best-sellers h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+
+  .best-sellers hr {
+    margin-bottom: 40px;
+    width: 40px;
+  }
+
+  .best-sellers .product-slider .container {
+    flex-wrap: wrap;
+  }
+
+  .product-slider .product {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .product-slider .product:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .product-slider .product h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .product-slider .product h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .price {
+    margin-bottom: 8px;
+  }
+
+  .product-slider .product .price h3 {
+    font-size: 20px;
+  }
+
+  .product-slider .product .price span.original-price {
+    font-size: 11px;
+  }
+
+  .product-slider .product button {
+    font-size: 12px;
+    width: 190px;
+  }
+
+  section.newsletter {
+    padding: 40px 0;
+    margin-bottom: 60px;
+  }
+
+  section.newsletter p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  section.newsletter input[type=email] {
+    font-size: 12px;
+    width: 210px;
+  }
+
+  section.newsletter button[type=submit] {
+    padding: 0 20px;
+  }
+
+  section.navigation {
+    padding: 48px 0;
+  }
+
+  section.navigation .navigation-links {
+    flex-wrap: wrap;
+  }
+
+  section.navigation .navigation-links ul {
+    width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  section.navigation .navigation-links ul:last-of-type {
+    margin-bottom: 0;
   }
 }
